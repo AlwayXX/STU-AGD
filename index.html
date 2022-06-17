@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="Zh_TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="DesignConcept.css">
+    <link rel="stylesheet" href="VisualDesign.css">
+    <link rel="stylesheet" href="Title.css">
+    <link rel="stylesheet" href="OurTeam.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section class="section2">
+        
+    </section>
+
+    <section class="section1">
+        
+    
+
+        <div class="Team">
+            <h2 class="a"> </h2>
+            <h2 class="b"> </h2>
+            <h2 class="c"> </h2>
+
+
+      
+            <p class="Team1">戎軒頤 AlwayXX<br>李宏杰 Zoj<br>鄭棨元 Origin</p>
+            <p class="Team2">蔡宗熹<br>梁起超<br>曾宇軒<br>顏楚耘</p>
+    
+            
+            
+            
+        </div>
+
+        <div>
+            <ul class="menu">
+                <li style="--i:6">Home</li> <!--首頁-->
+                <li style="--i:5">Our Team</li> <!--組員-->
+                <li style="--i:4">About</li> <!--設計理念-->
+                <li style="--i:3">Design</li> <!--設計方法-->
+                <li style="--i:2">Style</li> <!--色彩計畫/風格/原則-->
+                <li style="--i:1">Portfolio</li> <!--動態-->
+            </ul>
+        <div>
+            <h1 class="Title1">Contents</h1>
+            <h1 class="Title2 opacity0">OurTeam</h1> 
+        </div>
+           
+           
+        </div>
+
+        <div class=animate>
+            <video id="myvideo" src="./AZO.mp4" muted ></video>
+            <h1 class="Start">Start</h1>
+        </div>
+
+
+        <div id="VisualDesign" class="Moveout">
+            <h1>VISUAL <br>DESIGN</h1>
+            <h6>Enter</h6>
+        </div>
+    
+        <div id="DesignConcept" class="">
+            <h1>DESIGN <br>CONCEPT</h1>
+            <h6>Enter</h6>
+        </div>
+    </section>
+
+        
+</body>
+<script>
+    var video = $("#myvideo")[0]
+    var vs = $('#VisualDesign')
+    var vs1 = $('#VisualDesign h1')
+    var vs6 = $('#VisualDesign h6')
+    var dc = $('#DesignConcept')
+    var dc1 = $('#DesignConcept h1')
+    var dc6 = $('#DesignConcept h6')
+
+    vs6.click(function(){
+        vs1.fadeOut()
+        vs6.fadeOut()
+        vs.fadeOut()
+        setTimeout(()=>{video.play()},800)
+    })
+    dc6.click(function(){
+        dc1.fadeOut()
+        dc6.fadeOut()
+        dc.fadeOut()
+        setTimeout(()=>{video.play()},800)
+    })
+    dc1.dblclick(function(){
+        dc.addClass('Movedown')
+        vs.removeClass('Moveout')
+    })
+    vs1.dblclick(function(){
+        vs.addClass('Moveout')
+        dc.removeClass('Movedown')
+    })
+    video.addEventListener('play',function(){
+       
+        $('.Start').delay(3000).fadeIn(1000)
+    })
+    $('.Start').click(function(){
+        $('.animate').fadeOut()
+        $('.Start').fadeOut()
+    })
+    $('.menu li').click(function(){
+        $('.menu').addClass('Moveleft')
+    })
+
+    //HOME
+    $('.menu li:nth-child(1)').click(function(){ 
+        $('.animate').delay(100).fadeIn(100)
+        dc.fadeIn(100)
+        dc1.fadeIn(100)
+        dc6.fadeIn(100)
+        vs.fadeIn(100)
+        vs1.fadeIn(100)
+        vs6.fadeIn(100)
+        $('.menu').removeClass('Moveleft')
+    })
+    //Our Team
+    $('.menu li:nth-child(2)').click(function(){
+        $('.section1').addClass('color2')
+        $('.Title1').addClass('opacity0')
+        $('.Title2').removeClass('opacity0')
+        $( ".Team" ).animate({
+            left:'30vw'
+        },500)
+    
+    })
+
+
+
+
+
+
+</script>
+</html>
