@@ -131,12 +131,13 @@
                 <li style="--i:2">Style</li> <!--色彩計畫/風格/原則-->
                 <li style="--i:1">Portfolio</li> <!--動態-->
             </ul>
-        <div>
+        <div class="Title">
             <h1 class="Title1">Contents</h1>
-            <h1 class="Title2 opacity0">OurTeam</h1>
-            <h1 class="Title3 opacity0">About</h1> 
-            <h1 class="Title4 opacity0"> </h1>
-            <h1 class="Title5 opacity0">Portfolio</h1>
+            <h1 class="Title2 opacity0 point">OurTeam</h1>
+            <h1 class="Title3 opacity0 point">About</h1> 
+            <h1 class="Title4 opacity0 point">Design</h1>
+            <h1 class="Title45 opacity0 point">Style</h1>
+            <h1 class="Title5 opacity0 point">Portfolio</h1>
         </div>
            
            
@@ -218,10 +219,13 @@
         })
         //Our Team
         $('.menu li:nth-child(2)').click(function(){
+            $('.Title1').addClass('point')
+            $('.Title2').removeClass('point')
             $('.section1').addClass('color2')
             $('.Title1').addClass('opacity0')
-            $('.OurTeam').addClass('clickeve')
+            // $('.OurTeam').addClass('clickeve')
             $('.Title2').removeClass('opacity0')
+            $('.Title2').addClass('index4')
             $( ".Team" ).animate({
                 left:'30vw'
             },500)
@@ -234,9 +238,13 @@
         })
         //About
         $('.menu li:nth-child(3)').click(function(){
+            $('.Title2').addClass('point')
+            $('.Title3').removeClass('point')
             $('.section1').addClass('color3')
             $('.Title1').addClass('opacity0')
             $('.Title3').removeClass('opacity0')
+            $('.Title3').addClass('index4')
+            $('.Title2').removeClass('index4')
             $('.About').animate({
                 left:'0 '
             },500)
@@ -283,16 +291,24 @@
         })
         //Design
         $('.menu li:nth-child(4)').click(function(){
+            $('.Title3').addClass('point')
+            $('.Title4').removeClass('point')
             $('.section1').addClass('color4')
             $('.Title1').addClass('opacity0')
             $('.Title4').removeClass('opacity0')
+            $('.Title4').addClass('index4')
+            $('.Title3').removeClass('index4')
             $('.Design').animate({
                 left:'0'
             },500)
         })
         //Style
         $('.menu li:nth-child(5)').click(function(){
+            $('.Title4').addClass('point')
+            $('.Title45').removeClass('point')
             $('.Title1').addClass('opacity0')
+            $('.Title45').addClass('index4')
+            $('.Title4').removeClass('index4')
             $('.Style').animate({
                 left:'0'
             },500)
@@ -359,12 +375,111 @@
         })
         //Portfolio
         $('.menu li:nth-child(6)').click(function(){
+            $('.Title45').addClass('point')
+            $('.Title5').removeClass('point')
             $('.Title1').addClass('opacity0')
             $('.Title5').removeClass('opacity0')
+            $('.Title5').addClass('index4')
             $('.Portfolio').animate({
                 left:'0'
             },500)
         })
+        //Title Move
+        $('.Title1').click(function(){
+            $('.Title1').addClass('point')
+            $('.Title2').removeClass('point')
+            $('.Title2').removeClass('opacity0')
+            $('.Title2').addClass('index4')
+            $('.Title1').addClass('opacity0')
+            $('.Title1').removeClass('index4')
+            $('.section1').addClass('color2')
+            $('.menu').addClass('Moveleft')
+            $('.Team').animate({
+                left:'30vw'
+            },500)
+
+        })
+        $('.Title2').click(function(){
+            $('.Title3').removeClass('opacity0')
+            $('.Title3').addClass('index4')
+            $('.Title3').removeClass('point')
+            $('.Title2').addClass('opacity0')
+            $('.Title2').removeClass('index4')
+            $('.Title2').addClass('point')
+            $('.section1').addClass('color3')
+            $('.section1').removeClass('color2')
+            $('.About').animate({
+                left:'0'
+            },500)
+            $('.Team').animate({
+                left:'-150vw'
+            },500)
+        })
+        $('.Title3').click(function(){
+            $('.Title4').removeClass('opacity0')
+            $('.Title4').addClass('index4')
+            $('.Title4').removeClass('point')
+            $('.Title3').addClass('opacity0')
+            $('.Title3').removeClass('index4')
+            $('.Title3').addClass('point')
+            $('.section1').addClass('color4')
+            $('.section1').removeClass('color3')
+            $('.Design').animate({
+                left:'0'
+            },500)
+            $('.About').animate({
+                left:'-150vw'
+            },500)
+        })
+        $('.Title4').click(function(){
+            $('.Title45').removeClass('opacity0')
+            $('.Title45').addClass('index4')
+            $('.Title45').removeClass('point')
+            $('.Title4').addClass('opacity0')
+            $('.Title4').removeClass('index4')
+            $('.Title4').addClass('point')
+            $('.section1').addClass('color5')
+            $('.section1').removeClass('color4')
+            $('.Style').animate({
+                left:'0'
+            },500)
+            $('.Design').animate({
+                left:'-150vw'
+            },500)
+        })
+        $('.Title45').click(function(){
+            $('.Title5').removeClass('opacity0')
+            $('.Title5').addClass('index4')
+            $('.Title5').removeClass('point')
+            $('.Title45').addClass('opacity0')
+            $('.Title45').removeClass('index4')
+            $('.Title45').addClass('point')
+            $('.Portfolio').animate({
+                left:'0'
+            },500)
+            $('.Style').animate({
+                left:'-150vw'
+            },500)
+        })
+        $('.Title5').click(function(){
+            $('.Title1').removeClass('opacity0')
+            $('.Title1').addClass('index4')
+            $('.Title1').removeClass('point')
+            $('.Title5').removeClass('index4')
+            $('.Title5').addClass('opacity0')
+            $('.Title5').addClass('point')
+            $('.section1').removeClass('color5')
+            $('.menu').removeClass('Moveleft')
+            $('.Portfolio').animate({
+                left:'150vw'
+            },500)
+            $('.Style, .Design, .About, .Team').animate({
+                left:'150vw'
+            },0)
+        })
+        
+        
+        
 
 })
     

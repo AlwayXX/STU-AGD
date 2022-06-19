@@ -4,6 +4,10 @@
 {
     opacity: 0% !important;
 }
+.index4
+{
+ z-index: 4;
+}
 
 .Title1
 {
@@ -33,6 +37,28 @@
     font-family: 'Open+Sans';
     font-size: 6em;
     color:#4f4f4f;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    transform: 0.5s;
+
+}
+.Title4
+{
+    font-family: 'Open+Sans';
+    font-size: 6em;
+    color:#ffffff00;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    transform: 0.5s;
+
+}
+.Title45
+{
+    font-family: 'Open+Sans';
+    font-size: 6em;
+    color:#ffffff00;
     position: absolute;
     top: 25px;
     left: 60px;
