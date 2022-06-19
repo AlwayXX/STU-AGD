@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+.color4
+{
+    background: #fff;
+    transform: 0.5s;
+}
+.Design
+{
+    position: absolute;
+    left: 150vw;
+    top:0
+}
+.Dimg
+{
+    position: absolute;
+    left: 50px;
+}
+.dh
+{
+    width: 400px;
+    height: 300px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 1.5em sans-serif;
+    line-height: 2em;
+    letter-spacing: 0.2em;
+    user-select: none;
+    position: absolute;
+    color: #000;
+    top: 150px;
+    left: 700px;
+
+}
+.dh2
+{
+    width: 15px;
+    height: 500px;
+    position: absolute;
+    left: 95vw;
+    top: 10vh;
+    background: #a7b59c;
+}

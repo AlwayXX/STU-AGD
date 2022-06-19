@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Sans:wght@300&display=swap');
+
+.translate0
+{
+    transition: 0s !important;
+}
+.cursor
+{
+    cursor: pointer;
+}
+.point
+{
+    pointer-events: none;
+}
+.color5
+{background: #2b2b2b;transform: 0.5s;}
+.color6
+{background: #1a1a1a;transform: 0.5s;}
+.color7
+{background: #5e5e5e;transform: 0.5s;}
+.color8
+{background: #4b4b4b;transform: 0.5s;}
+.color9
+{background: #fff;transform: 0.5s;}
+.color10
+{background: #d6d6d6;transform: 0.5s;}
+.Style
+{
+    position: absolute;
+    left: 150vw;
+    top:0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.S1,.S2,.S3,.S11,.S21,.S21h,.S22,.S31
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.S11 img
+{
+    position: absolute;
+    left: -380px;
+    top: -270px;
+    pointer-events: none;
+}
+.S11 h1
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 3em sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.S11 h2
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 2em sans-serif;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.S21 h1
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 3em sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.S21 h2
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 2em sans-serif;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.S22 h3
+{
+    width: 13vh;
+    height: 13vh;
+    background: #B3D8DD;
+    position: relative;
+    top: -90%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    z-index: 1;
+}
+.S22 h4
+{
+    width: 13vh;
+    height: 13vh;
+    background: #fff;
+    position: relative;
+    top: -85%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    z-index: 1;
+}
+.S22 h5
+{
+    width: 13vh;
+    height: 13vh;
+    background: #4f4e4f;
+    position: relative;
+    top: -80%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    z-index: 1;
+    border: 1px solid #fff;
+}
+.S21m
+{
+    left:25% !important;
+}
+.S23
+{
+
+    top: 15vh;
+    left: 10vw;
+    position: absolute;
+    transition: 0.5s;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+}
+.S23a
+{
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}
+.S23b
+{
+    position: relative;
+    top: 15vh;
+    left: 0;
+    transition: 0.5s;
+}
+.S23c
+{
+    position: relative;
+    top: 30vh;
+    left: 0;
+    transition: 0.5s;
+}
+.S23m
+{
+    left:5vw
+}
+.S3 img
+{
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    pointer-events: none;
+}
+.S31
+{   
+    position: relative;
+}
+.S31 h1
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 3em sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    color: #000;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.S31 h2
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    font: 2em sans-serif;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    color: #000;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.S12 .Gra
+{
+    position: absolute;
+    width: 25vh;
+    top: 5%;
+    left: 18vw;    
+}
+.S12 .Con
+{
+    position: absolute;
+    width: 25vh;
+    top: 40%;
+    left: 0%;
+}
+.S12 .Bal
+{
+    position: absolute;
+    width: 25vh;
+    top: 75%;
+    left: 18vw;
+}
+.S12a,.S12b,.S12c
+{
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 0.2em;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.S12a h4,.S12b h4,.S12c h4
+{
+    font: 2em sans-serif;
+    line-height: 2em;
+}
+.S12a p,.S12b p,.S12c p
+{
+    font: 20px sans-serif;
+    line-height: 1.6em;
+}
+.S12a
+{
+    position: absolute;
+    top: 3%;
+    left: 0;
+}
+.S12b
+{
+    position: absolute;
+    top: 38%;
+    left: 0;
+    text-align: right;
+}
+.S12c
+{
+    position: absolute;
+    top: 73%;
+    left: 0;
+}
+.S12a,.S12c
+{
+    padding: 0 17vw 0 2vw;
+}
+.S12b
+{
+    padding: 0 2vw 0 17vw;
+}
+.S24
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.S24 img
+{
+    width: 60%;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.S24 p
+{
+    letter-spacing: 10px;
+    font: 25px sans-serif;
+    line-height: 2em;
+    color: #fff;
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 48%;
+    left: 53%;
+    transform: translateX(-50%);
+}
+.S32
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.S32 img
+{
+    width: 60%;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.S32 p
+{
+    letter-spacing: 10px;
+    font: 25px sans-serif;
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 48%;
+    left: 53%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+.color3
+{
+    background: #fff;
+    transform: 0.5s;
+}
+.About
+{
+    position: absolute;
+    left: 150vw;
+    top:0
+}
+.squ
+{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-color: #4f4f4f;
+    border: 50px solid;
+    left: 350px;
+    top: 510px;
+    cursor: pointer;
+}
+.tri
+{
+    width:100px;
+    height:100px;
+    background:#ff4343;
+    position: absolute;
+    clip-path: polygon(50% 0%, 10% 100%, 90% 100%);
+    left: 550px;
+    top: 510px;
+    cursor: pointer;
+}
+.dia
+{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    clip-path: polygon(20% 0, 80% 0, 50% 50%, 80% 100%, 20% 100%, 50% 50%);
+    left: 730px;
+    top: 510px;
+    cursor: pointer;
+}
+.cir
+{
+    width: 100px;
+    height: 100px;
+    background: #ff4343;
+    position: absolute;
+    border-radius: 50px;
+    left: 910px;
+    top: 510px;
+    cursor: pointer;
+}
+.bor
+{
+    width: 660px;
+    height: 300px;
+    position: absolute;
+    border: 2.5px #000 solid;
+    border-radius: 20px;
+    background: #fff;
+    left: 350px;
+    top: 150px;
+}
+.bor div
+{
+    position: absolute;
+    
+}
+.name0
+{
+    position: absolute;
+    font: 1em sans-serif;
+    line-height: 2em;
+    letter-spacing: 0.2em;
+    user-select: none;
+    color: #000;
+    padding: 20px 0 0 15px;
+}
+.name1
+{
+    position: absolute;
+    font: 1em sans-serif;
+    line-height: 2.5em;
+    letter-spacing: 0.2em;
+    user-select: none;
+    color: #000;
+    padding: 30px 0 0 15px;
+}
+.name2
+{
+    position: absolute;
+    font: 1em sans-serif;
+    line-height: 2.5em;
+    letter-spacing: 0.2em;
+    user-select: none;
+    color: #000;
+    padding: 30px 0 0 15px;
+}
+.name3
+{
+    position: absolute;
+    font: 1em sans-serif;
+    line-height: 2.5em;
+    letter-spacing: 0.2em;
+    user-select: none;
+    color: #000;
+    padding: 30px 0 0 15px;
+}
+.L1,.L2,.L3,.L4
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #000;
+    clip-path: polygon(49% 0, 51% 0, 51% 100%, 49% 100%);
+    top: 450px
+}
+.L1
+{
+    left: 350px;
+}
+.L2
+{
+    left: 550px;
+}
+.L3
+{
+    left: 730px;
+}
+.L4
+{   
+    left: 910px;
+}
