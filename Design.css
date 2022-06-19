@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 
-.color4
-{
-    background: #fff;
-    transform: 0.5s;
-}
+
 .Design
 {
     position: absolute;
@@ -15,6 +11,7 @@
 {
     position: absolute;
     left: 50px;
+    pointer-events: none;
 }
 .dh
 {
